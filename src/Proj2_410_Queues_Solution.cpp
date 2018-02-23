@@ -142,7 +142,7 @@ int main() {
 
 	std::remove(LOG_FILE_1_IO);
 	runTest(SOURCE_FILE_1_IO, LOG_FILE_1_IO);
-
+	//problem at 15
 	std::remove(LOG_FILE_2_IO);
 	runTest(SOURCE_FILE_2_IO, LOG_FILE_2_IO);
 
@@ -156,5 +156,6 @@ int main() {
 	runTest(SOURCE_FILE_MANY_MIXED, LOG_FILE_MANY_MIXED);
 
 	return SUCCESS;
+
 }
 
